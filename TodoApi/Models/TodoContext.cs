@@ -14,6 +14,6 @@ namespace TodoApi.Models
 
         }
 
-        public DbSet<TodoItem> MyProperty { get; set; }
+        public DbSet<TodoItem> TodoItems { get; set; }
     }
 }
